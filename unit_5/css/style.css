@@ -20,10 +20,12 @@ body {
 
 
 header {
+  background-color:  #FFED74;
+  border: 1px black solid;
   font-family: 'Gloria Hallelujah', cursive;
   text-align: center;
   /*background-color: #46c7e5;*/
-  padding: 15px;
+  padding: 20px;
   color: #ffffff;
 }
 
@@ -33,12 +35,37 @@ a{
   /*text-decoration: none;*/
 }
 
+nav {
+  background-color: #E8C66A;
+  border: 1px black solid;
+  padding: 20px;
+}
+
 nav a{
+  
   color: #ffffff;
   font-style: italic;
   margin-right: 10px;
   line-height: 2;
   text-align: center;
+}
+
+div {
+  background-color: #FFE2B8;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+article {
+  background-color: #E89C6C;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+footer {
+  background-color: #FF957E;
+  border: 1px black solid;
+  padding: 20px;
 }
 
 #imagenav {
