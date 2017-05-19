@@ -54,7 +54,12 @@ div {
   background-color: #FFE2B8;
   border: 1px black solid;
   padding: 20px;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  margin: 20px;
 }
+
 
 section {
   background-color: #FFE2B8;
@@ -193,13 +198,7 @@ ul {
 }
 
 
-div {
-  width: 150px;
-  height: 150px;
-  
-  display: inline-block;
-  margin: 20px;
-}
+
 
 .social-media{
     display: flex;
