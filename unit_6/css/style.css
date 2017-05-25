@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  text-align: left;
+  /*background-image: url("../images/ocean.jpg");*/
+  background-color: #ccffff;
+  font-family: Helvetica;
+  font-size: 22px;
+  line-height: 1.3;
+  margin: 20px;
+  color: black;
+  background-size: cover;
+
+}
+
+
+header {
+   background-image: url("../images/sea.jpg");
+  font-size: 32px;
+  /*background-color:  #FFED74;*/
+  /*border: 1px black solid;*/
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+  /*background-color: #46c7e5;*/
+  padding: 20px;
+  color: #ffffff;
+}
+
+/*nav {
+  background-color: #E8C66A;
+  /*border: 1px black solid;
+  font-size: 22px;
+  padding: 20px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}*/
+
+/*#imagenav {
+  color: #ffffff;
+  font-style: italic;
+  margin-top: 10px;
+  margin-right: 25px;
+  line-height: 2;
+  text-align: center;
+}*/
+
+
+nav a{
+  color: black;
+  font-style: italic;
+  margin-right: 10px;
+  line-height: 2;
+  text-align: center;
+  display: inline-block;
+}
+
+#navheader {
+  color: white;
+}
+
+a{
+  color: #ffffff;
+  display: block;
+  padding: 20px;
+  /*width: 200px;*/
+  text-decoration: none;
+  /*float: left;*/
+}
+
+a:hover{
+  background-color: #aaaaaa;
+}
+
+section {
+  /*background-color: #FFE2B8;*/
+  /*border: 1px black solid;*/
+  padding: 5px;
+  margin-bottom: 10px;
+  /*float: left;*/
+}
+
+#italic {
+  
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+}
+
+
+#about {
+  font-size: 22px;
+  margin: 20;
+  /*font-style: italic;*/
+}
+
+h2,h3 {
+  color: black;
+  font-size: 28px;
+  margin: 20px 0;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+footer {
+  background-image: url("../images/sea.jpg");
+  /*background-color: #FF957E;*/
+  /*border: 1px black solid;*/
+  padding: 20px;
+  /*clear: both;*/
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+
+
+
+#mexico { 
+  width: 500px;
+  height: 500px;
+  background-image: url('../images/cabo.jpg');
+  background-size: cover;
+  background-position: center center;
+  vertical-align: top;
+  float: left;
+}
+
+#guana { 
+  width: 500px;
+  height: 500px;
+  background-image: url('../images/guana.jpg');
+  background-size: cover;
+  background-position: center center;
+  float: left;
+    }
+
+#tulum { 
+  width: 500px;
+  height: 500px;
+  background-image: url('../images/tulum.jpg');
+  background-size: cover;
+  background-position: center center;
+  float: left;
+}
+
+#puertomorelos { 
+  width: 500px;
+  height: 500px;
+  background-image: url('../images/cancun.jpg');
+  background-size: cover;
+  background-position: center center;
+  float: left;
+}
+
+#wellness { 
+  width: 500px;
+  height: 500px;
+  background-image: url('../images/wellness.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+#workout { 
+  width: 500px;
+  height: 500px;
+  background-image: url('../images/frog.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.heart:before {
+  content: '\2665';
+  color: red;
+}
+
+/*#two_column1 {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}*/
+
+/*#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}*/
+/*#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 50%;
+}*/
+
+aside {
+    /*background-color: #E55B88;*/
+    /*border: 1px black solid;*/
+    padding: 20px;
+    float: right;
+    width: 50%;
+    float:right;
+    margin-top: 20px;
+  }
+
+
+
+/*div {
+  background-color: #FFE2B8;
+  border: 1px black solid;
+  padding: 20px;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  margin: 20px;
+}*/
+
+/*article {
+  background-color: #E89C6C;
+  border: 1px black solid;
+  padding: 20px;
+}*/
+
+/*ul {
+    text-align: left;
+    list-style-type: none;
+    margin: 25px;
+   width: 100%;
+   color: #ffffff;
+}*/
+
+/*img {
+  width: 400px;
+  border: 3px solid black;
+  position: relative; 
+  float: center;
+    
+  /*margin: 0 0 10px 10px;
+  /*height: 10px;
+  
+  display: inline-block;
+  margin: 20px;   
+}*/
+/*.texton { 
+  margin-top: 25px;
+  margin-left: 25px;
+/*position: absolute; 
+  width: 100%;
+  }*/
+ 
+/*#paragraphimage {
+
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 25px;
+  color: #ffffff;
+  font-style: italic;
+}*/
+
+/*.social-media{
+    display: flex;
+    justify-content: center;
+}*/
+
+
+/* The hero image*/
+/*.hero-image {
+    /* The image used */
+    /*background-image: url("images/ocean.jpg");
+
+
+    /* Position and center the image to scale nicely on all screens */
+    /*background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}*/
+
+/* Place text in the middle of the image */
+/*.hero-text {
+    /*text-align: center;
+    /*position: absolute;*/
+    /*top: 30%;
+    left: 50%;
+    /*transform: translate(-50%, -50%);*/
+    /*color: #000;
+}*/
