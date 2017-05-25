@@ -8,7 +8,7 @@
 
 body {
   text-align: left;
-  /*background-image: url("../images/ocean.jpg");*/
+  /*background-image: url("../images/sea.jpg");*/
   background-color: #ccffff;
   font-family: Helvetica;
   font-size: 22px;
@@ -185,11 +185,11 @@ footer {
   color: red;
 }
 
-/*#two_column1 {
+#two_column1 {
     background-color: #FFB7CF;
     border: 1px black solid;
     padding: 20px;
-}*/
+}
 
 /*#left {
     background-color: #E582A2;
@@ -198,13 +198,13 @@ footer {
     float: left;
     width: 30%;
 }*/
-/*#right {
+#right {
     background-color: #E55B88;
     border: 1px black solid;
     padding: 20px;
     float: right;
     width: 50%;
-}*/
+}
 
 aside {
     /*background-color: #E55B88;*/
