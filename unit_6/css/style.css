@@ -3,6 +3,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 
@@ -81,7 +82,7 @@ a:hover{
 section {
   /*background-color: #FFE2B8;*/
   /*border: 1px black solid;*/
-  padding: 5px;
+  /* padding: 4em; */
   margin-bottom: 10px;
   /*float: left;*/
 }
@@ -127,41 +128,28 @@ footer {
 
 
 
-#mexico { 
-  width: 500px;
-  height: 500px;
+#mexico {
   background-image: url('../images/cabo.jpg');
   background-size: cover;
   background-position: center center;
-  vertical-align: top;
-  float: left;
 }
 
-#guana { 
-  width: 500px;
-  height: 500px;
+#guana {
   background-image: url('../images/guana.jpg');
   background-size: cover;
   background-position: center center;
-  float: left;
-    }
+  }
 
-#tulum { 
-  width: 500px;
-  height: 500px;
+#tulum {
   background-image: url('../images/tulum.jpg');
   background-size: cover;
   background-position: center center;
-  float: left;
 }
 
-#puertomorelos { 
-  width: 500px;
-  height: 500px;
+#puertomorelos {
   background-image: url('../images/cancun.jpg');
   background-size: cover;
   background-position: center center;
-  float: left;
 }
 
 #wellness { 
@@ -188,7 +176,7 @@ footer {
 #two_column1 {
     background-color: #FFB7CF;
     border: 1px black solid;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 /*#left {
@@ -199,23 +187,26 @@ footer {
     width: 30%;
 }*/
 #right {
-    background-color: #E55B88;
-    border: 1px black solid;
-    padding: 20px;
-    float: right;
-    width: 50%;
 }
 
 aside {
-    /*background-color: #E55B88;*/
-    /*border: 1px black solid;*/
-    padding: 20px;
-    float: right;
-    width: 50%;
-    float:right;
-    margin-top: 20px;
-  }
-
+    background-color: #E55B88;
+    /* border: 1px black solid; */
+    padding: 4em;
+    float: left;
+    width: 65.66%;
+    margin-left: 1%;
+}
+h3 {
+    width: 33.33%;
+    height: 500px;
+    float: left;
+    margin: 0;
+}
+.wrapper {
+    width: 60em;
+    margin: auto;
+}
 
 
 /*div {
